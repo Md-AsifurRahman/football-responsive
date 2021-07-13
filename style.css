@@ -36,7 +36,7 @@ main{
 }
 
 .container{
-    background-color: #f7eeee;
+    background-color: whitesmoke;
     width: 870px;
     padding: 23px;
     margin-top: 21px;
@@ -45,7 +45,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px;
+    grid-column-gap:.2px;
 }
 .player .player-image img{
     width:220px;
@@ -131,6 +131,31 @@ table, th, td {
     
 
 }
+ /* player  */
+.section-title1{
+    color: rgb(23, 158, 163);
+    margin-top: 3px;
+    text-align: center;
+    
+}
+.Top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.Top-player{
+    display: flex;
+    align-items: center;
+}
+.Top-player img{
+    width: 56px;
+    height: 56px;
+}
+.Top-player-name{
+ margin: 16px;
+ font-size: 16px;
+}
+
 /* footer part  */
 
 .footer{
@@ -138,8 +163,7 @@ table, th, td {
     padding-bottom: 50px;
     text-align:center;
     color: black;
-}  
-
+}
 
 .footer img{
     width:30%;
