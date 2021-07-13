@@ -188,3 +188,29 @@ table, th, td {
     background-color: rgb(197, 193, 193);
     border-radius:50%;
 }
+/* Media Query  */
+/* -----------------------------------------  */
+/* device-mobile  */
+@media only screen and (min-device-width : 320px) and (max-device-width : 688px) {
+    .section1{
+       
+        display:grid;
+        background-color: rgb(29, 6, 158);
+        color: white;
+        font-size: 15px;
+
+    }
+    .section1 img{
+       width: 80%; 
+    }
+    .container, .result-table{
+        width: 100%;
+        padding-right: 5%;
+    }
+    .players, .Top-players{
+        grid-template-columns:repeat(1,1fr);
+    }
+    }
+    .player, .Top-player{
+        flex-direction: column;
+    }
