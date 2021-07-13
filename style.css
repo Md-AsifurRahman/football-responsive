@@ -68,6 +68,23 @@ main{
     width: 100%;
 
 }
+/* match table  */
+.result-table{
+    background-color: rgb(241, 222, 222);
+    border-radius: 5%;
+}
+#Heading{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: center;    
+  }
+
 /* match hi-light point  */
 .section3{
     display: flex;
@@ -104,6 +121,15 @@ main{
     
     padding-left:10%;
     
+}
+.link-button3{
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: white;
+    padding:1%;
+    font-size: small;
+    
+
 }
 /* footer part  */
 
