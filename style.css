@@ -105,5 +105,36 @@ main{
     padding-left:10%;
     
 }
-    
+/* footer part  */
 
+.footer{
+    padding-top: 10%;
+    padding-bottom: 50px;
+    text-align:center;
+    color: black;
+}  
+
+
+.footer img{
+    width:30%;
+}
+.fa-instagram-square{
+    padding:.5%;
+    background-color: rgb(197, 193, 193);
+    border-radius:50%;
+}
+.fa-facebook-f{
+    padding: .5%;
+    background-color: rgb(197, 193, 193);
+    border-radius:50%;
+}
+.fa-twitter-square{
+    padding: .5%;
+    background-color: rgb(197, 193, 193);
+    border-radius:50%;
+}
+.fa-youtube{
+    padding:.5%;
+    background-color: rgb(197, 193, 193);
+    border-radius:50%;
+}
