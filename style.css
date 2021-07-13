@@ -1,0 +1,33 @@
+/* font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* banner part  */
+.section1{
+    display: flex;
+    background-color: rgb(29, 6, 158);
+    color: white;
+    font-size: 30px;
+}
+.div1{
+    padding: 10%;
+    font-size:bold;
+}
+.section1 img{
+    width: 556px;
+    padding-top: 18%;
+} 
+.link-button{
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: white;
+    padding: 2%;
+    font-size: small;
+}
+.fa-arrow-right{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+    
+
