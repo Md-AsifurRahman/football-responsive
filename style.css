@@ -78,7 +78,7 @@ main{
 /* match table  */
 .result-table{
     background-color: rgb(201, 198, 198);
-    border-radius: 5%;
+    
 }
 #Heading{
     text-align: center;
@@ -90,6 +90,10 @@ table, th, td {
   th, td {
     padding: 5px;
     text-align: center;    
+  }
+  .link3{
+      text-align: center;
+      padding: 5%;
   }
 
 /* match hi-light point  */
