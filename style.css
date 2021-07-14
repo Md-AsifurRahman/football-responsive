@@ -77,7 +77,7 @@ main{
 }
 /* match table  */
 .result-table{
-    background-color: rgb(241, 222, 222);
+    background-color: rgb(201, 198, 198);
     border-radius: 5%;
 }
 #Heading{
@@ -199,7 +199,7 @@ table, th, td {
 }
 /* Media Query  */
 /* -----------------------------------------  */
-/* device-mobile  */
+/* device-Smartphone  */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 688px) {
 
